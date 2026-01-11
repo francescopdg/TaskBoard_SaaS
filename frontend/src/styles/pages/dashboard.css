@@ -1,8 +1,8 @@
 /* Dashboard Page */
 .dashboard-container {
-  max-width: 72rem;
+  max-width: var(--container);
   margin: 0 auto;
-  padding: var(--spacing-10) var(--spacing-4);
+  padding: var(--spacing-12) var(--spacing-4);
 }
 
 .dashboard-header {
@@ -10,8 +10,9 @@
 }
 
 .dashboard-title {
-  font-size: var(--text-3xl);
+  font-size: 2rem;
   font-weight: 700;
+  letter-spacing: -0.02em;
   margin-bottom: var(--spacing-1);
 }
 
@@ -39,7 +40,7 @@
 
 /* Organization Info */
 .org-members {
-  color: var(--color-slate-400);
+  color: var(--text-2);
   font-size: var(--text-sm);
 }
 
@@ -52,10 +53,6 @@
 }
 
 /* Text helpers */
-.text-muted {
-  color: var(--color-slate-400);
-}
-
 .text-error {
   color: var(--color-red-400);
 }

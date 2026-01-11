@@ -8,7 +8,7 @@ function Layout() {
         <div className={"nav"}>
             <div className={"nav-container"}>
                 <Link to={"/"} className={"nav-logo"}>
-                    TaskBoard
+                    Task<span>Board</span>
                 </Link>
 
                 <div className={"nav-links"}>
@@ -31,8 +31,8 @@ function Layout() {
                             createOrganizationMode={"modal"}
                             apperance={{
                                 elements: {
-                                    userPreviewMainIdentifierText__personalWorkspace: {color: "white"},
-                                    organizationPreviewMainIdentifier__organizationSwitcherTrigger: {color: "white"}
+                                    userPreviewMainIdentifierText__personalWorkspace: {color: "rgba(15, 23, 42, 0.92)"},
+                                    organizationPreviewMainIdentifier__organizationSwitcherTrigger: {color: "rgba(15, 23, 42, 0.92)"}
                                 }
                             }}
                         />

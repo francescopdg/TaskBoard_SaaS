@@ -7,18 +7,19 @@
 }
 
 .home-title {
-  font-size: var(--text-5xl);
-  font-weight: 700;
+  font-size: clamp(2.25rem, 6vw, 3.25rem);
+  font-weight: 750;
+  letter-spacing: -0.03em;
   margin-bottom: var(--spacing-6);
 }
 
 .home-title-accent {
-  color: var(--color-emerald-400);
+  color: var(--accent);
 }
 
 .home-subtitle {
-  font-size: var(--text-xl);
-  color: var(--color-slate-400);
+  font-size: 1.1rem;
+  color: var(--text-1);
   margin-bottom: var(--spacing-10);
   max-width: 42rem;
   margin-left: auto;
@@ -29,10 +30,10 @@
   display: flex;
   gap: var(--spacing-4);
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .home-create-org {
   display: flex;
   justify-content: center;
 }
-
